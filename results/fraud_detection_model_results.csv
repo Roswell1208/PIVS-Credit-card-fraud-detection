@@ -1,0 +1,16 @@
+Model,Dataset,F1_Score,Recall,Precision,ROC_AUC,TN,FP,FN,TP
+KNN,Original,0.8,0.73,0.88,0.904,85294,13,37,99
+KNN,Undersampled,0.09,0.98,0.05,0.988,82595,2712,3,133
+KNN,Oversampled,0.01,0.93,0.01,0.848,62103,23204,9,127
+Logistic Regression,Original,0.7,0.68,0.72,0.984,85271,36,44,92
+Logistic Regression,Undersampled,0.09,0.93,0.05,0.991,82707,2600,9,127
+Logistic Regression,Oversampled,0.0,1.0,0.0,0.965,4090,81217,0,136
+Random Forest,Original,0.81,0.77,0.86,0.972,85290,17,31,105
+Random Forest,Undersampled,0.1,0.97,0.05,0.994,82865,2442,4,132
+Random Forest,Oversampled,0.06,0.55,0.03,0.834,82959,2348,61,75
+SVM,Original,0.47,0.32,0.86,0.961,85300,7,92,44
+SVM,Undersampled,0.1,0.93,0.05,0.991,83026,2281,10,126
+SVM,Oversampled,0.0,0.02,0.0,0.468,79617,5690,133,3
+XGBoost,Original,0.87,0.82,0.93,0.986,85298,9,25,111
+XGBoost,Undersampled,0.07,0.98,0.04,0.995,81771,3536,3,133
+XGBoost,Oversampled,0.76,0.86,0.69,0.989,85254,53,19,117
